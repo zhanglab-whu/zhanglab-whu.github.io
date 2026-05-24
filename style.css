@@ -602,8 +602,8 @@ h3 {
 
 .pi-profile {
   display: grid;
-  grid-template-columns: 320px 1fr;
-  gap: 32px;
+  grid-template-columns: 220px 1fr;
+  gap: 28px;
   align-items: start;
   border: 1px solid var(--color-border);
   border-radius: 6px;
@@ -614,8 +614,11 @@ h3 {
   display: block;
   width: 100%;
   height: auto;
+  max-height: 300px;
   border: 1px solid var(--color-border);
   border-radius: 6px;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .person-photo {
@@ -708,7 +711,7 @@ h3 {
   }
 
   .pi-profile {
-    grid-template-columns: 240px 1fr;
+    grid-template-columns: 180px 1fr;
   }
 
   .split {
@@ -781,6 +784,10 @@ h3 {
 
   .pi-profile {
     padding: 18px;
+  }
+
+  .pi-profile img {
+    max-width: 220px;
   }
 
   .list-item {
