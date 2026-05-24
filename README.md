@@ -10,13 +10,13 @@ https://zhanglab-whu.github.io
 
 ## Files
 
-- `index.html` - Home page with lab overview, methods, news, and open positions.
-- `research.html` - Research themes and methods.
-- `publications.html` - Placeholder page for verified selected publications.
-- `people.html` - Placeholder page for the Principal Investigator and lab members.
+- `index.html` - Home page with lab overview, profile image, methods, news, and open positions.
+- `research.html` - Research themes, methods, representative progress, and future directions.
+- `publications.html` - Selected publications grouped by corresponding-author and first-author papers.
+- `people.html` - Principal Investigator profile and placeholder lab member sections.
 - `contact.html` - Contact and open positions information.
 - `style.css` - Shared responsive styling.
-- `.gitignore` - Excludes private documents and local files from the public website repository.
+- `assets/zhang-xinghua-profile.png` - Public website image supplied for the lab site.
 
 ## Editing Notes
 
