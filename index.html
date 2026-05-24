@@ -6,6 +6,20 @@
   <meta name="description" content="Zhang Lab at Wuhan University develops single-molecule technologies for nucleic acid biophysics, cell mechanobiology, and molecular detection.">
   <title>Zhang Lab | Wuhan University</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .hero-statement {
+      max-width: 980px;
+      font-size: 2.05rem;
+      line-height: 1.24;
+    }
+
+    @media (max-width: 760px) {
+      .hero-statement {
+        font-size: 1.55rem;
+        line-height: 1.3;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -28,8 +42,8 @@
     <section class="hero">
       <div class="hero-content">
         <p class="eyebrow">College of Life Sciences, Wuhan University</p>
-        <h1>Develop new single-molecule technologies, design DNA mechanical probes for cell mechanobiology and clinical sample detection, reveal how methylation regulates DNA structure and function, and uncover dynamic mechanisms of nucleic-acid structural regulation.</h1>
-        <p class="lead">Zhang Lab studies the single-molecule biophysics of DNA, RNA, and RNA-DNA hybrids, connecting molecular mechanics with genome stability, epigenetic regulation, clinical genotyping, and cell mechanobiology.</p>
+        <h1 class="hero-statement">Develop new single-molecule technologies, design DNA mechanical probes for cell mechanobiology and clinical sample detection, reveal how methylation regulates DNA structure and function, and uncover dynamic mechanisms of nucleic-acid structural regulation.</h1>
+        <p class="lead">Zhang Lab integrates single-molecule force spectroscopy, fluorescence assays, biochemical measurements, and molecular dynamics simulations to study how DNA, RNA, RNA-DNA hybrids, and chemically modified nucleic acids change structure, mechanics, and biological function.</p>
         <div class="hero-actions" aria-label="Primary links">
           <a class="button" href="research.html">Research Areas</a>
           <a class="button secondary" href="publications.html">Publications</a>
@@ -44,29 +58,32 @@
     <section class="section">
       <div class="section-header">
         <p class="eyebrow">Research Interests</p>
-        <h2>Single-molecule techniques and nucleic-acid structural dynamics</h2>
+        <h2>Research themes built from established lab achievements</h2>
       </div>
-      <div class="grid five">
+      <div class="grid three">
         <article class="card compact">
-          <h3>Single-molecule techniques</h3>
-          <p>Development of magnetic tweezers, fluorescence probes, and force-based assays for quantitative molecular biology.</p>
+          <h3>DNA probes for biology and clinical detection</h3>
+          <p>The lab develops programmable DNA and RNA molecular probes for single-molecule manipulation, live-cell force sensing, mutation-sensitive nucleic-acid detection, gene-editing specificity studies, and nanopipette-based DNA characterization.</p>
         </article>
         <article class="card compact">
-          <h3>DNA and RNA dynamics</h3>
-          <p>Structural and mechanical regulation of DNA, RNA, RNA-DNA hybrids, and modified nucleic acids.</p>
+          <h3>DNA methylation, mechanics, and function</h3>
+          <p>The lab studies how epigenetic DNA modifications reshape DNA elasticity, condensation, hybridization, homologous recombination, and protein-DNA interactions, including 5-methylcytosine and N6-methyladenine systems.</p>
         </article>
         <article class="card compact">
-          <h3>Clinical genotyping</h3>
-          <p>DNA probe design for mutation-sensitive, multiplexed, amplification-free detection of nucleic acids.</p>
+          <h3>Nucleic-acid structural dynamics</h3>
+          <p>The lab investigates how salt, temperature, force, solvent, ions, and protein binding regulate the deformation, twist-stretch coupling, elasticity, and stability of DNA, RNA, and RNA-DNA hybrid duplexes.</p>
         </article>
-        <article class="card compact">
-          <h3>Cell mechanobiology</h3>
-          <p>DNA-based mechanical probes for measuring force magnitude, duration, and loading rate in living cells.</p>
-        </article>
-        <article class="card compact">
-          <h3>Genome stability</h3>
-          <p>Epigenetic regulation of DNA mechanics, protein-DNA interactions, and DNA repair processes.</p>
-        </article>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="eyebrow">Lab Overview</p>
+        <h2>Single-molecule biophysics connecting molecules, cells, and detection</h2>
+      </div>
+      <div class="feature-list">
+        <p>Zhang Lab focuses on quantitative single-molecule biophysics of nucleic acids. The lab designs DNA-based mechanical and molecular probes, measures the mechanics of DNA, RNA, RNA-DNA hybrids, and polysaccharide chains, and uses physical models to explain how molecular structure controls biological function.</p>
+        <p>The lab's work spans fundamental nucleic-acid mechanics, epigenetic regulation, cell mechanobiology, clinical sample detection, protein-nucleic acid interactions, ion-mediated stability, and the emerging single-molecule biology of modified RNA and polysaccharides.</p>
       </div>
     </section>
 
@@ -97,11 +114,14 @@
 
     <section class="section split">
       <div>
-        <p class="eyebrow">Research Areas</p>
-        <h2>Mechanics, topology, and stability of nucleic acids</h2>
+        <p class="eyebrow">Representative Highlights</p>
+        <h2>Selected research advances from the public academic record</h2>
       </div>
       <div class="feature-list">
-        <p>Research in the lab spans nucleic acid mechanics, DNA and RNA elasticity, RNA-DNA hybrid mechanics, DNA topology and knots, protein-DNA interactions, ion-mediated nucleic acid stability, and epigenetic DNA modifications.</p>
+        <p><strong>DNA-based ForceChrono probes:</strong> reversible DNA fluorescence probes were developed to measure the magnitude, duration, and loading rate of single-molecule forces in living cells.</p>
+        <p><strong>Amplification-free molecular detection:</strong> tandem DNA hairpin probes enabled mutation-sensitive, multiplexed nucleic-acid detection in serum and saliva samples without amplification.</p>
+        <p><strong>DNA methylation mechanisms:</strong> studies of 5mC and 6mA revealed how methylation can regulate DNA condensation, hybridization, RecA-mediated homologous recombination, and DNA repair-related processes.</p>
+        <p><strong>DNA, RNA, and RNA-DNA hybrid mechanics:</strong> magnetic tweezers and simulations uncovered how ions, salt, temperature, stretching force, solvent, and protein binding regulate duplex deformation, elasticity, and twist-stretch coupling.</p>
         <a class="text-link" href="research.html">View detailed research themes</a>
       </div>
     </section>
@@ -112,32 +132,37 @@
         <h2>Prof. Xing-Hua Zhang</h2>
       </div>
       <div class="profile-summary">
-        <p>Prof. Xing-Hua Zhang is a professor in the College of Life Sciences at Wuhan University. His research focuses on single-molecule techniques, DNA and RNA structural dynamics, clinical genotyping, cell mechanobiology, and genome stability under epigenetic regulation.</p>
+        <p>Prof. Xing-Hua Zhang is a professor and doctoral supervisor in the College of Life Sciences at Wuhan University. His research focuses on developing single-molecule technologies, designing DNA mechanical probes for cell mechanobiology and clinical sample detection, revealing how methylation regulates DNA structure and function, and uncovering dynamic mechanisms of nucleic-acid structural regulation.</p>
+        <p>According to the public CV materials provided for this website, his corresponding-author and first-author research has appeared in journals including Cell, Nature Communications, PNAS, Physical Review Letters, Journal of the American Chemical Society, Science Advances, Nucleic Acids Research, PLoS Biology, ACS Nano, ACS Sensors, Carbohydrate Polymers, Macromolecules, Communications Biology, and Biophysical Journal.</p>
         <a class="text-link" href="people.html">Meet the lab</a>
       </div>
     </section>
 
     <section class="section">
       <div class="section-header">
-        <p class="eyebrow">News</p>
-        <h2>Lab updates</h2>
+        <p class="eyebrow">Research Directions</p>
+        <h2>Ongoing directions grounded in prior work</h2>
       </div>
-      <div class="list-panel">
-        <div class="list-item">
-          <time datetime="2026-05">May 2026</time>
-          <p>The Zhang Lab website is being prepared for GitHub Pages.</p>
-        </div>
-        <div class="list-item">
-          <time datetime="2026">2026</time>
-          <p>Open positions and lab announcements will be posted when available.</p>
-        </div>
+      <div class="grid three">
+        <article class="card compact">
+          <h3>Single-molecule polysaccharide biology</h3>
+          <p>Building on single-chain stretching of polysaccharides, the lab aims to connect sugar-chain composition, ionic response, conformation, and hydrogel or biomaterial mechanics.</p>
+        </article>
+        <article class="card compact">
+          <h3>Single-molecule biology of RNA modifications</h3>
+          <p>The lab aims to quantify how RNA modifications alter elasticity, stability, folding landscapes, conformational dynamics, and functional outcomes in RNA, DNA, and RNA-DNA hybrid systems.</p>
+        </article>
+        <article class="card compact">
+          <h3>DNA force probes in cell mechanobiology</h3>
+          <p>The lab aims to develop next-generation DNA mechanical probes and tunable biomimetic matrices to study dynamic single-molecule forces in disease-related cell microenvironments.</p>
+        </article>
       </div>
     </section>
 
     <section class="section callout">
       <div>
-        <p class="eyebrow">Open Positions</p>
-        <h2>Students and researchers interested in molecular biophysics, single-molecule methods, nucleic acids, and cell mechanobiology are welcome to get in touch.</h2>
+        <p class="eyebrow">Contact</p>
+        <h2>For academic inquiries about single-molecule biophysics, nucleic-acid mechanics, molecular probes, and related collaborations, please contact Zhang Lab at Wuhan University.</h2>
       </div>
       <a class="button" href="contact.html">Contact</a>
     </section>
