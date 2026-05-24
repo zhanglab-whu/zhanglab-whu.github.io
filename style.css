@@ -396,6 +396,23 @@ h3 {
   padding-left: 4px;
 }
 
+.publication-list a[href$=".pdf"] {
+  display: table;
+  margin-top: 6px;
+  padding: 3px 9px;
+  border: 1px solid var(--color-accent);
+  border-radius: 4px;
+  color: var(--color-accent);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.publication-list a[href$=".pdf"]:hover,
+.publication-list a[href$=".pdf"]:focus {
+  background: var(--color-accent-light);
+}
+
 .publication-list em {
   color: var(--color-text);
   font-style: italic;
