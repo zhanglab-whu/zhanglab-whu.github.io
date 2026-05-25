@@ -459,7 +459,7 @@ h3 {
 
 .research-area-body {
   display: grid;
-  grid-template-columns: 220px 1fr;
+  grid-template-columns: 1fr;
   gap: 22px;
   padding: 22px;
 }
