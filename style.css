@@ -266,6 +266,16 @@ h3 {
   min-height: 210px;
 }
 
+.card-link {
+  display: block;
+  color: inherit;
+}
+
+.card-link:hover {
+  color: inherit;
+  border-color: var(--color-accent);
+}
+
 .card.large {
   min-height: 360px;
 }
